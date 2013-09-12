@@ -1,4 +1,4 @@
 PHPFetion
 =========
 
-php fetion send message
+php fetion send wether info
