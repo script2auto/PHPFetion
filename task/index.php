@@ -36,9 +36,9 @@ $str_BJ = "明天（".date('Y/m/d',strtotime('+1 day'))."），".$info_BJ['city'
 $str_TJ = "明天（".date('Y/m/d',strtotime('+1 day'))."），".$info_TJ['city']."天气：".$info_TJ['weather2']."，气温：".$info_TJ['temp2']."，风速：".$info_TJ['wind2']."，风力：".$info_TJ['fl2']."。【信息来源：中国天气网】";
 
 
-$fetion = new PHPFetion('13810252425', 'hw13810252425');	// 手机号、飞信密码
+$fetion = new PHPFetion('', '');	// 手机号、飞信密码
 
-$fetion->send('', $str_NC);   
+$fetion->send('', $str_NC); //接收方手机号  
 $fetion->send('', $str_YX);  
 $fetion->send('', $str_TJ); 
 $fetion->send('', $str_NC);
