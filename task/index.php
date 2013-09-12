@@ -38,11 +38,11 @@ $str_TJ = "明天（".date('Y/m/d',strtotime('+1 day'))."），".$info_TJ['city'
 
 $fetion = new PHPFetion('13810252425', 'hw13810252425');	// 手机号、飞信密码
 
-$fetion->send('15720966308', $str_NC);    //老妈
-$fetion->send('13767274327', $str_YX);    //老爸
-$fetion->send('15122131723', $str_TJ);    //聂发仁
-$fetion->send('18270822161', $str_NC);    //陈昌基
-$fetion->send('13810252425', $str_BJ);    //自己 
+$fetion->send('', $str_NC);   
+$fetion->send('', $str_YX);  
+$fetion->send('', $str_TJ); 
+$fetion->send('', $str_NC);
+$fetion->send('', $str_BJ);
 ?>
 </body>
 </html>
